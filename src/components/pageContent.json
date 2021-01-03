@@ -2,24 +2,11 @@
   "title" :"poop",
   "pages" : [
     {
-      "id": "wYQf3X0mR1M",
-      "parentId": null,
-      "label": "Boner",
-      "title" : "BONER VIDEO",
+      "linkText" : "BONER VIDEO",
       "path" : "/boner",
-      "videoId" : "wYQf3X0mR1M",
-      "items": [
-        {
-          "id": 87654321,
-          "lavel": "My file",
-          "parentId": "wYQf3X0mR1M"
-        }
-      ]
+      "videoId" : "wYQf3X0mR1M"
     },
     {
-      "id": "iPf8iNGzfmE",
-      "parentId": null,
-      "label": "Jeff Nippard",
       "title" : "JEFFY BOY",
       "linkText" : "Jeff Nippard",
       "path" : "/jeff",

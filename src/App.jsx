@@ -24,7 +24,6 @@ const App = () => {
           {
             pages.map(page =>
             <Route key={page.videoId} path={page.path}>
-              {console.log(page.path)}
               <Page title={page.title} videoId={page.videoId} customComponent={page.customComponent} />
             </Route>)
           }

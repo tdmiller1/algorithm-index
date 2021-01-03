@@ -2,30 +2,28 @@ import React, { useState } from 'react';
 import {
   Link
 } from "react-router-dom";
-import Tree from '@naisutech/react-tree';
 
 import pageJson from './pageContent.json';
 
 const Navigation = () => {
   const [pages] = useState(pageJson.pages);
 
-  const onSelect = page => {
-    console.log(page);
-  }
-
   return (
     <div className="bg-gray-100">
-      <Tree nodes={pages} onSelect={onSelect} />
       <nav>
         <ul>
-          <li className="pl-3 pr-3 py-3">
-            <Link to="/">Home</Link>
-          </li>
+          <Link to="/">
+            <li className="pl-3 pr-3 py-3">
+              Home
+            </li>
+          </Link>
           {
             pages.map(page => (
-              <li className="whitespace-nowrap pl-3 pr-3 py-3" key={page.videoId}>
-                <Link to={page.path}>{page.linkText}</Link>
-              </li>
+              <Link to={page.path}>
+                <li className="whitespace-nowrap pl-3 pr-3 py-3" key={page.videoId}>
+                  {page.linkText}
+                </li>
+              </Link>
             ))
           }
         </ul>
