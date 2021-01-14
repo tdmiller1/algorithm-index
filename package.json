@@ -16,11 +16,13 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-youtube": "^7.13.0",
+    "serve": "^11.3.2",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "serve -s build",
+    "dev": "craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
