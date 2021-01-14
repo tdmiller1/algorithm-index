@@ -1,61 +1,29 @@
 {
-  "title" :"poop",
+  "title" :"Algorithm Index",
   "pages" : [
     {
-      "linkText" : "BONER VIDEO",
-      "path" : "/boner",
-      "videoId" : "wYQf3X0mR1M",
+      "linkText" : "Data Structures",
+      "path" : "/data-structures",
+      "videoId" : "bum_19loj9A",
       "pages" : [
         {
-          "linkText" : "BONER VIDEO 1",
-          "path" : "/boner2",
-          "videoId" : "wYQf3X0madR1M",
+          "linkText" : "Arrays and Memory",
+          "path" : "/arrays-memory",
+          "videoId" : "pmN9ExDf3yQ",
           "pages" : [
             {
-              "linkText" : "BONER VIDEO 2",
-              "path" : "/boner2",
-              "videoId" : "wadsfYQf3a0mR1M",
-              "pages" : [
-                {
-                  "linkText" : "BONER VIDEO 3",
-                  "path" : "/boner2",
-                  "videoId" : "wYQfasdf3X0mR1M",
-                  "pages" : [
-                    {
-                      "linkText" : "BONER VIDEO 4",
-                      "path" : "/boner2",
-                      "videoId" : "wYQf3Xfdsa0mR1M",
-                      "pages" : [
-                        {
-                          "linkText" : "BONER VIDEO 5",
-                          "path" : "/boner2",
-                          "videoId" : "wYQf3Xasdf 0mR1M"
-                        },
-                        {
-                          "linkText" : "BONER VIDEO 6",
-                          "path" : "/boner2",
-                          "videoId" : "wYQf3X0m324R1M"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "linkText" : "BONER VIDEO 7",
-              "path" : "/boner2",
-              "videoId" : "wYQf3adsfX0mR1M"
+              "linkText" : "Quicksort",
+              "path" : "/quicksort",
+              "videoId" : "0SkOjNaO1XY"
             }
           ]
         }
       ]
     },
     {
-      "title" : "JEFFY BOY",
-      "linkText" : "Jeff Nippard",
-      "path" : "/jeff",
-      "videoId" : "iPf8iNGzfmE"
+      "linkText" : "Recursive Staircase",
+      "path" : "/recursive-staircase",
+      "videoId" : "kdjv7FD0"
     }
   ]
 }

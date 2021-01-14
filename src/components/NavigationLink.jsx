@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const NavigationLink = ({page}) => {
   return (
     <Link to={page.path}>
-      <Button contained primary className="whitespace-nowrap pl-3 pr-3 py-3" key={page.videoId}>
+      <Button className="whitespace-nowrap pl-3 pr-3 py-3" key={page.videoId}>
         {page.linkText}
       </Button>
     </Link>
